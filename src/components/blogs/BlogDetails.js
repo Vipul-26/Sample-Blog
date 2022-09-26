@@ -29,7 +29,7 @@ const BlogDetails = (props) => {
                             {blog.content}
                         </p>
                     </div>
-                    <div className="card-action grey lighten-4 grey-text">
+                    <div className="card-action grey lighten-4">
                         <div>
                             Posted by {blog.authorFirstName} {blog.authorLastName}
                         </div>
