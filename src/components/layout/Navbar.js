@@ -53,7 +53,7 @@ const Navbar = (props) => {
                     </NavLink>
                 </li>
                 <li>
-                    <a onClick={signOut}>
+                    <a onClick={signOut} href="#!">
                         Log Out
                     </a>
                 </li>
