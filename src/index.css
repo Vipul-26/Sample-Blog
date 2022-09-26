@@ -45,6 +45,14 @@ nav ul li a.active {
     padding-top: 1rem;
 }
 
+.input-field>label {
+    color: black !important;
+}
+
+.pink.lighten-1 {
+    background-color: #DA1657 !important;
+}
+
 @media screen and (max-width: 1023px) {
     .mobHide {
         display: none;
