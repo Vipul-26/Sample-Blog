@@ -13,7 +13,7 @@ const BlogDetails = (props) => {
 
     if (!auth.uid) {
         return (
-            <Redirect to='/signup' />
+            <Redirect to='/signin' />
         );
     };
 
