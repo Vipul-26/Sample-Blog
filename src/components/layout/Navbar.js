@@ -111,7 +111,7 @@ const Navbar = (props) => {
                         </div>
                     </div>
                     <Link to='/' className="brand-logo">
-                        Sample Blog
+                        Sample Blog.
                     </Link>
                     <ul className="right hide-on-med-and-down ">
                         {auth.uid ? <SignedInLinks /> : <SignedOutLinks />}
