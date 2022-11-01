@@ -16,7 +16,7 @@ class Dashboard extends Component {
 
         if (!auth.uid) {
             return (
-                <Redirect to='/signin' />
+                <Redirect to='/signup' />
             );
         };
 
