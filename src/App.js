@@ -30,6 +30,7 @@ const App = () => {
       <div className="App">
         <AuthIsLoaded>
           <Navbar />
+          <h1>jjgjhjh</h1>
           <Switch>
             <Route exact path='/' component={Dashboard} />
             <Route path='/blog/:id' component={BlogDetails} />
